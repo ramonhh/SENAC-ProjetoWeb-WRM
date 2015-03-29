@@ -1,0 +1,80 @@
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+body {
+	font-size: 20px;
+}
+
+h1 {
+	font-size: 64px;
+	margin-top: 20px;
+}
+
+li {
+	font-size: 18px;
+}
+
+label {
+	float: left;
+	width: 42%;
+	margin-right: 0.5em;
+	display: inline-block;
+}
+label.lucro {
+	width: 10%;
+}
+
+select{
+	float: right;
+	margin-right: 25px;
+	-webkit-appearance: menulist-button;
+}
+
+input[type="text"]{
+	width: 40%;	
+}
+input[type="number"]{
+	width: 10%;
+}
+
+#logo {
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+#titulo {
+	margin-left: 80px;
+	display: inline-block;
+}
+
+.comboBox{
+	display: inline-block;
+	width: 400px;
+}
+
+#custo {
+	width: 50%;
+}
+
+#tp {
+	display: inline-block;
+}
