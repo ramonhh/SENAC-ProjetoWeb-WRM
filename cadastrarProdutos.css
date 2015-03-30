@@ -34,13 +34,8 @@ li {
 }
 
 label {
-	float: left;
+	float: center;
 	width: 42%;
-	margin-right: 0.5em;
-	display: inline-block;
-}
-label.lucro {
-	width: 10%;
 }
 
 select{
@@ -53,15 +48,18 @@ input[type="text"]{
 	width: 40%;	
 }
 input[type="number"]{
-	width: 10%;
+	width: 18%;
+	margin-left:18.5%;
 }
 
 #logo {
 	display: inline-block;
 	margin-bottom: 30px;
+	margin-left: 2%;
 }
 
 #titulo {
+	margin-top: 1%;
 	margin-left: 80px;
 	display: inline-block;
 }
@@ -71,10 +69,20 @@ input[type="number"]{
 	width: 400px;
 }
 
-#custo {
+.textField.number {
 	width: 50%;
+	margin-left: 25px;
+}
+.number {
+	float:left;
+	width: 120%;
 }
 
-#tp {
-	display: inline-block;
+.textField.custo {
+	width: 40%;
+	float: left;
+}
+
+.inputCusto {
+	float: right;
 }

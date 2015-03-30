@@ -16,7 +16,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link href="posicionamento.css" type="text/css" rel="stylesheet">
+    <link href="cadastrarProdutos.css" type="text/css" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -89,10 +89,10 @@
             <label> Fornecedor </label>
             <select name="fornecedor">
               <option selected disabled hidden value=''>Selecione</option> 
-              <option class="teste" value="intel">Intel</option>
-              <option value="amd">MSI</option>
-              <option value="asus">Asus</option>
-              <option value="kingston">Multilaser</option>
+              <option class="teste" value="intel">DTek</option>
+              <option value="amd">SND Distribuição</option>
+              <option value="asus">Kernel</option>
+              <option value="kingston">Mazer</option>
             </select>
           </p>
           <p class="textField">
@@ -103,14 +103,14 @@
             <label> Modelo </label>
             <input type="text">
           </p>
-          <p class="textField" id="custo" >
-            <label> Custo </label>
-            <input type="text">
+          <p class="textField custo">
+            <label for="custo"> Custo </label>
+            <input type="text" name="custo" class="inputCusto">
           </p>
-          <p class="number">
-            <label class="lucro"> % de lucro: </label>
-            <input type="number" min="1" step="0.1" value="10">
-          </div>
+           <p class="textField number">
+            <label class="lucro" for="lucro"> % de lucro: </label>
+            <input type="number" min="1" step="0.1" value="10" name="lucro"> 
+          </p>
           <p class="textField">
             <label> Preço de Venda </label>
             <input type="text">
